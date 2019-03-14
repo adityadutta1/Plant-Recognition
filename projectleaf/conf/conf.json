@@ -1,0 +1,19 @@
+{
+  "model"           : "vgg16",
+  "weights"         : "imagenet",
+  "include_top"     : true,
+  
+
+  "train_path"      : "C:/Users/Adity/Desktop/projectleaf/dataset/train",
+  "test_path"       : "C:/Users/Adity/Desktop/projectleaf/dataset/test",
+  "features_path"   : "C:/Users/Adity/Desktop/projectleaf/output/leaves/inceptionv3/features.h5",
+  "labels_path"     : "C:/Users/Adity/Desktop/projectleaf/output/leaves/inceptionv3/labels.h5",
+  "results"         : "C:/Users/Adity/Desktop/projectleaf/output/leaves/inceptionv3/results.txt",
+  "classifier_path" : "C:/Users/Adity/Desktop/projectleaf/output/leaves/inceptionv3/classifier.pickle",
+  "model_path"      : "C:/Users/Adity/Desktop/projectleaf/output/leaves/inceptionv3/model",
+  
+
+  "test_size"       : 0.10,
+  "seed"            : 9,
+  "num_classes"     : 32
+}
